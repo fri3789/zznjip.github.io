@@ -1,0 +1,412 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>チームマーメイド - Soft Volleyball Mermaid</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #ff99cc; /* 柔らかいピンク */
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+        header {
+            background: linear-gradient(135deg, rgba(0, 150, 200, 0.8), rgba(255, 105, 180, 0.8)); /* 水色からピンクのグラデーション */
+            padding: 20px;
+            text-align: center;
+            border-radius: 15px;
+        }
+        .header-banner {
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4em;
+            color: #fff;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+        }
+        nav {
+            background: rgba(255, 182, 193, 0.9); /* 淡いピンク */
+            padding: 10px;
+            border-radius: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #00ced1; /* 明るい水色でホバー効果 */
+        }
+        section {
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, rgba(255, 230, 240, 0.8), rgba(135, 206, 235, 0.8)); /* ピンクから水色のグラデーション */
+            border-radius: 20px;
+            border: 2px solid rgba(255, 105, 180, 0.5); /* ピンクのボーダー */
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 影で立体感 */
+        }
+        .members {
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 1.5%;
+            border-radius: 15px;
+            height: 200px;
+            object-fit: cover;
+            border: 3px solid #ff99cc; /* ピンクの枠 */
+        }
+        footer {
+            background: linear-gradient(135deg, rgba(0, 150, 200, 0.8), rgba(255, 105, 180, 0.8));
+            text-align: center;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        .terms {
+            background: rgba(240, 255, 240, 0.9); /* 淡い緑で優しい印象 */
+            color: #155724;
+            text-shadow: none;
+            border: 2px solid rgba(144, 238, 144, 0.5); /* 淡い緑のボーダー */
+        }
+        .terms h2, .terms h3 {
+            color: #228B22; /* 森の緑 */
+        }
+        .terms ul, .terms ol {
+            list-style-position: inside;
+        }
+        @media (max-width: 768px) {
+            .gallery img { width: 100%; margin: 5px 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-banner">
+            <h1>チームマーメイド<br>Soft Volleyball Mermaid</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#about">チーム紹介</a></li>
+                <li><a href="#members">メンバー</a></li>
+                <li><a href="#events">イベント</a></li>
+                <li><a href="#gallery">ギャラリー</a></li>
+                <li><a href="#contact">連絡先</a></li>
+                <li><a href="#terms">利用規約</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>ようこそ、チームマーメイドへ</h2>
+        <p>障害者と健常者が共にソフトバレーボールを楽しみ、心身の健康を増進し、相互理解と地域社会への貢献を目指します。総員21人で活動中！</p>
+    </section>
+
+    <section id="about">
+        <h2>チーム紹介</h2>
+        <p>チームマーメイドは、2025年1月12日に千葉県内で設立。ソフトバレーボールを通じてインクルーシブな環境を作り、障害者スポーツの普及を目指します。</p>
+    </section>
+
+    <section id="members">
+        <h2>メンバー紹介</h2>
+        <div class="members">
+            <p>現在、総員21名で活動中。メンバー情報はプライバシー保護のため非公開です。</p>
+        </div>
+    </section>
+
+    <section id="events">
+        <h2>イベント情報</h2>
+        <p>次回練習: 随時決定（体育館の空き状況を考慮）。詳細はLINEグループで告知します。</p>
+    </section>
+
+    <section id="gallery">
+        <h2>ギャラリー</h2>
+        <div class="gallery">
+            <img src="https://www.dropbox.com/scl/fi/fp9flze5wl9danunhap0o/LINE_ALBUM_20250602_250925_1.jpg?rlkey=qtgtzr9oipg0qb2zlpd71mvcs&st=tbhbjmgf&dl=1" alt="チーム練習風景1" class="mosaic">
+            <img src="https://www.dropbox.com/scl/fi/60xshw8c29v8u4iv9sl01/LINE_ALBUM_20250602_250925_3.jpg?rlkey=4piglqv4zg99jemgmvfsyiohg&st=y14ystfm&dl=1" alt="チーム練習風景2" class="mosaic">
+            <img src="https://www.dropbox.com/scl/fi/tl9lspyrynnxcrftc7c14/LINE_ALBUM_20250623_250925_12.jpg?rlkey=7mksa7h56o8x81nt0sxp1ro23&st=1xiu3tf7&dl=1" alt="チーム練習風景3" class="mosaic">
+            <img src="https://www.dropbox.com/scl/fi/xyzrfgdvlfl25b6718hoi/LINE_ALBUM_20250623_250925_14.jpg?rlkey=sqs3yd4h9p360luh91ckug83n&st=zmmjdwf7&dl=1" alt="チーム練習風景4" class="mosaic">
+            <img src="https://www.dropbox.com/scl/fi/gvi74xsm34byy769i55c8/LINE_ALBUM_20250906-_250925_3.jpg?rlkey=m81paoovvt8kz7vd1izxgvx02&st=tizfjl60&dl=1" alt="チーム練習風景5" class="mosaic">
+            <img src="https://www.dropbox.com/scl/fi/0z547g8p9rj93zuluunc6/LINE_ALBUM_20250906-_250925_22.jpg?rlkey=w7p8k1ksvbybqwr7i93lpweze&st=zz45aa2x&dl=1" alt="チーム練習風景6" class="mosaic">
+            <img src="https://www.dropbox.com/scl/fi/4w0jarkfgafnkwtgfkdhm/LINE_ALBUM_20250906-_250925_25.jpg?rlkey=q9j32po38l4ro6428270efxrf&st=b6wk2w91&dl=1" alt="チーム練習風景7" class="mosaic">
+            <img src="https://www.dropbox.com/scl/fi/kabmuixpbusul2dbqpkyd/LINE_ALBUM_20250906-_250925_28.jpg?rlkey=eg349s752le93o951phnyyzaa&st=d9uo27s2&dl=1" alt="チーム練習風景8" class="mosaic">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>連絡先</h2>
+        <p>電話: 090-3599-4419<br>Email: mermaidnomail@gmail.com</p>
+    </section>
+
+    <section id="terms" class="terms">
+        <h1>チームマーメイド利用規約</h1>
+        <p>制定日: 2025年6月27日（適宜改訂する場合があることをご了承ください）</p>
+
+        <h2>第1条（目的）</h2>
+        <p>本チーム「マーメイド」は、障害者（精神障害者、知的障害者、身体障害者）と健常者が共にソフトバレーボールを通じて心身の健康を増進し、相互理解と地域社会への貢献を目的とする。障害者スポーツの普及とインクルーシブな環境作りを目指す。</p>
+
+        <h2>第2条（チーム概要）</h2>
+        <ol>
+            <li>名称: マーメイド</li>
+            <li>設立: 2025年1月12日</li>
+            <li>活動拠点: 千葉県内</li>
+            <li>競技種目: ソフトバレーボール（男女混合、ネット高さ都度決定）</li>
+        </ol>
+
+        <h2>第3条（会員資格）</h2>
+        <h3>1. 加入条件:</h3>
+        <ul>
+            <li>18歳以上の障害者（精神、知的、身体）および健常者。</li>
+            <li>ソフトバレーを楽しむ意欲があり、チームの目的に賛同する者。</li>
+            <li>入会にあたり、本規約および附則のLINEグループのルールに同意することを前提とする。</li>
+        </ul>
+        <h3>2. 入会手続き:</h3>
+        <ul>
+            <li>入会希望者は代表者に口頭またはLINEで申告し、健康状態・障害に関する情報を提供。</li>
+        </ul>
+        <h3>3. 退会:</h3>
+        <ul>
+            <li>退会希望者は口頭またはLINEで代表者に通知。</li>
+            <li>会費未納や規約違反（LINEグループのルール違反を含む）がある場合、退会手続きが完了しない場合がある。以下規約で対応。</li>
+        </ul>
+
+        <h2>第4条（活動内容）</h2>
+        <h3>1. 練習:</h3>
+        <ul>
+            <li>日程: 随時決定（体育館の空き情報などを考慮）</li>
+            <li>場所: 随時決定</li>
+            <li>内容: 基本練習（パス、サーブ）、試合形式、障害に応じたルール調整</li>
+        </ul>
+        <h3>2. 試合: 未定</h3>
+
+        <h2>第5条（会費）</h2>
+        <h3>1. 会費:</h3>
+        <ul>
+            <li>1回一律400円（場合により変動あり）。</li>
+            <li>入館時に現金で支払う。</li>
+        </ul>
+        <h3>2. 使途:</h3>
+        <ul>
+            <li>体育館使用料、ボール購入費、etc…</li>
+        </ul>
+        <h3>3. 遅延対応:</h3>
+        <ul>
+            <li>会費は入館時支払いのため未納なし。支払いがない場合、練習参加不可。</li>
+        </ul>
+
+        <h2>第6条（組織と役割）</h2>
+        <h3>1. 運営体制:</h3>
+        <ul>
+            <li>幹事（チーム運営全般）、副幹事（財務管理）、副幹事（情報発信）。</li>
+        </ul>
+        <h3>2. 連絡体制:</h3>
+        <ul>
+            <li>連絡手段: LINEグループ、幹事、副幹事宛（メール、電話）</li>
+            <li>障害者に配慮した連絡（例: 簡単な言葉での説明）。</li>
+            <li>LINEグループの運営は、附則に定める「LINEグループのルール」に従う。</li>
+        </ul>
+
+        <h2>第7条（ルールとマナー）</h2>
+        <h3>1. 練習ルール:</h3>
+        <ul>
+            <li>出席はグループラインのイベントに参加不参の意思を表示</li>
+            <li>遅刻・欠席は事前にLINEまたはメールで連絡。</li>
+            <li>体育館使用ルール（室内用シューズ着用、ゴミ持ち帰り）を遵守。</li>
+            <li>障害に応じた配慮（知的障害者に簡潔な指示、精神障害者にストレス軽減の休憩）。</li>
+        </ul>
+        <h3>2. 試合ルール:</h3>
+        <ul>
+            <li>障害者向け特別ルール（例: 簡略化された指示）。</li>
+        </ul>
+        <h3>3. マナー:</h3>
+        <ul>
+            <li>障害の有無に関わらず敬意を持ち、フェアプレーを心がける。</li>
+            <li>差別的発言、過度な介助の強要、プライバシー侵害を禁止。</li>
+        </ul>
+        <h3>4. 禁止事項:</h3>
+        <ul>
+            <li>暴力、飲酒後の参加、施設内喫煙、規約違反行為（LINEグループのルール違反を含む）。</li>
+        </ul>
+
+        <h2>第8条（安全と健康管理）</h2>
+        <h3>1. 健康管理:</h3>
+        <ul>
+            <li>健康状態および障害に関する情報を入会時および必要に応じて口頭で伝えること。</li>
+            <li>体調不良時は参加を控える（特に精神障害者のメンタルヘルスに配慮）。</li>
+        </ul>
+        <h3>2. 保険: 検討中</h3>
+        <h3>3. 怪我対応:</h3>
+        <ul>
+            <li>怪我発生時、119番通報、応急処置 通報時の指示に従う。</li>
+            <li>救急車や安静スペースを事前に確認。</li>
+        </ul>
+        <h3>4. 感染症対策:</h3>
+        <ul>
+            <li>家での体温チェック（37.5℃以上で参加禁止）、マスク着用（任意）、手指消毒を推奨。</li>
+        </ul>
+
+        <h2>第9条（大会・試合参加）</h2>
+        <h3>1. 参加資格:</h3>
+        <ul>
+            <li>大会主催者のルールに従う。</li>
+        </ul>
+        <h3>2. 選考基準:</h3>
+        <ul>
+            <li>練習参加率（70%以上）、障害の程度を総合的に判断。（検討中）</li>
+            <li>障害者と健常者の公平な出場機会を確保。</li>
+        </ul>
+        <h3>3. 費用負担:</h3>
+        <ul>
+            <li>大会参加費（1大会5,000円）現金での事前徴収。</li>
+            <li>障害者の経済的負担を軽減する補助制度を検討。</li>
+        </ul>
+        <h3>4. 棄権:</h3>
+        <ul>
+            <li>体調不良による棄権は事前連絡（LINEまたは電話）。ペナルティなし。</li>
+        </ul>
+
+        <h2>第10条（規約違反と懲戒）</h2>
+        <h3>1. 違反行為:</h3>
+        <ul>
+            <li>2回以上の会費未払い、マナー違反、差別的行為、チームの名誉を傷つける行為、LINEグループのルール違反。</li>
+            <li>相手の同意や許可なく、個人への過度なメッセージ送信（特に嫌がる内容や頻度の高いLINE送信）は禁止します。</li>
+        </ul>
+        <h3>2. 懲戒手続き:</h3>
+        <ul>
+            <li>違反者と話し合い、警告、活動参加停止、除名を段階的に実施。（例外あり）</li>
+            <li>障害者の状況を考慮し、公平なプロセスを確保。</li>
+        </ul>
+        <h3>3. 除名:</h3>
+        <ul>
+            <li>継続的な規約違反、重大なトラブル時に4名以上での話し合いにより決定。（例外あり）</li>
+            <li>チームは個人に対しての一切の責任を負わないものとする。</li>
+        </ul>
+
+        <h2>第11条（個人情報保護）</h2>
+        <h3>1. 情報管理:</h3>
+        <ul>
+            <li>氏名、連絡先、障害情報は原則、幹事および副幹事が管理。</li>
+            <li>情報はチーム運営および大会参加目的以外に使用しない。</li>
+        </ul>
+        <h3>2. 第三者提供:</h3>
+        <ul>
+            <li>大会主催者や保険会社への提供は、本人の口頭同意を得て行う。</li>
+        </ul>
+        <h3>3. 同意:</h3>
+        <ul>
+            <li>入会時に必読。グループライン(チームマーメイド)にいる限り同意とみなす。</li>
+        </ul>
+
+        <h2>第12条（規約の改定）</h2>
+        <h3>1. 改定手順:</h3>
+        <ul>
+            <li>改定案は代表者または会員が提案し、4人以上の意見一致により決定。</li>
+            <li>障害者に配慮した会議形式（オンライン、簡単な言葉での説明）を採用。</li>
+        </ul>
+        <h3>2. 通知:</h3>
+        <ul>
+            <li>改定内容はLINE、メール、書面で全メンバーに周知。</li>
+            <li>障害者に適した形式（簡単な言葉）で提供。</li>
+        </ul>
+
+        <h2>第13条（解散）</h2>
+        <h3>1. 解散条件:</h3>
+        <ul>
+            <li>財政難、目的達成不能の場合、4人以上の意見一致により決定。</li>
+        </ul>
+        <h3>2. 資産処理:</h3>
+        <ul>
+            <li>残余資産は日本障がい者スポーツ協会に寄付または会員に公平分配。</li>
+        </ul>
+
+        <h2>LINEグループのルール</h2>
+        <p>本チームのLINEグループ「マーメイド連絡網」は、障害者や就労が難しい方を含むすべてのメンバーが安心して発言できる場を目指す。以下のルールを守り、気持ちよく参加できるよう協力すること。入会時に本ルールに同意した者のみがグループに参加可能。</p>
+
+        <h3>基本ルール</h3>
+        <ul>
+            <li>就寝時間が異なるため、通知をOFFにすることを推奨（右上の三本線から設定可能）。</li>
+            <li>互いを尊重し、否定的な発言や攻撃的な言葉は控える。</li>
+            <li>どんな意見も大切にし、発言しやすい雰囲気を心がける。</li>
+            <li>過度な連投や一部の人が会話を独占しないよう注意。</li>
+            <li>文章は短く分け、わかりやすい表現を心がける。</li>
+            <li>無理に返事を求めることは避ける。</li>
+            <li>個人のプライバシーに関わる内容は投稿しない。</li>
+            <li>宗教、マルチ商法等の勧誘、同意のない個人への投稿は固く禁止。</li>
+        </ul>
+
+        <h3>発言に関するルール</h3>
+        <ul>
+            <li>発言に自信がなくても気軽に発言可。誰も否定する権限はない。</li>
+            <li>返答に時間がかかる人もいるため、急かさない。</li>
+            <li>他の人の発言を批判せず、まずは受け止める姿勢を持つ。</li>
+            <li>意見が分かれる場合、相手を傷つけない伝え方を工夫。</li>
+            <li>困ったことがあれば、管理者（幹事または副幹事）に相談。</li>
+        </ul>
+
+        <h3>ルール違反があった場合の対応</h3>
+        <ul>
+            <li>ルール違反発言があった場合、管理者が適切な処置（法的措置含む）を講じる。</li>
+            <li>繰り返し問題のある発言をした場合、一時的に発言を控えてもらう。</li>
+            <li>悪質な場合、グループおよびチームからの退会措置（法的措置含む）を取る。</li>
+        </ul>
+
+        <h3>相談窓口</h3>
+        <ul>
+            <li>問題が発生した場合、個人LINEにて管理者（幹事、または副幹事）に内容を送信。</li>
+            <li>証拠としてスクリーンショットを推奨だが、どんな形式でも可。</li>
+            <li>相談者のプライバシーは厳守。内容に応じ、相手に法的措置を検討または相談者にアドバイス。</li>
+            <li>勧誘等ホットライン: 消費者ホットライン ☎188、警察相談専用電話 ☎#9110。</li>
+            <li>誘われた場合、1人で会わないこと。</li>
+        </ul>
+
+        <h3>その他</h3>
+        <ul>
+            <li>本ルールは代表者の独自判断で作成されたものではなく、メンバー意見を反映。</li>
+            <li>ルールに同意した方のみグループに滞在・参加可。</li>
+            <li>皆様が安心して交流できる場を作るため、協力をお願いします。</li>
+        </ul>
+
+        <h2>附則</h2>
+        <ol>
+            <li>本規約は2025年6月17日より施行する。</li>
+            <li>規約に定めのない事項は、幹事、副幹事含む4名以上の意見の一致で決定する。</li>
+            <li>本規約およびLINEグループのルールは全メンバーに周知し、入会時に口頭で同意を得る。</li>
+        </ol>
+
+        <p>以上</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 チームマーメイド. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
